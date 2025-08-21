@@ -1,0 +1,13 @@
+package org.example.collections;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListImplDemo {
+  public static void main(String[] args){
+    List<String> list = new ArrayList<String>();
+    list.add("a");
+    list.add("b");
+    list.forEach(System.out::println);
+  }
+}
